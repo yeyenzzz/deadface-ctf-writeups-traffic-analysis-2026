@@ -28,13 +28,19 @@ Inspecting the packet details for the flagged ICMP Echo requests reveals custom 
 
 By systematically inspecting the data payloads of all packets marked with (no response found!) and concatenating them sequentially, the following Base64-encoded payload was reconstructed:
 
+```text
 ZGVhZGZhY2V7aWNtcF8zeGZpbF93aDNuX3RoM3lfbGVhc3Rfc3VzcDNjdH0=
+
+```
 
 ### Step 3: Decoding the Flag
 
 The presence of trailing = padding confirms that the extracted string is Base64 encoded. Decoding it using the Linux terminal yields the plain-text flag:
 
+```bash
 echo "ZGVhZGZhY2V7aWNtcF8zeGZpbF93aDNuX3RoM3lfbGVhc3Rfc3VzcDNjdH0=" | base64 -d
+
+```
 
 Captured Flag
 
