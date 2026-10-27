@@ -1,4 +1,5 @@
 # DEADFACE CTF 2026: Traffic Analysis Write-ups
+On **October 17-18, 2026**, I participated in **DEADFACE CTF 2026**. These are my write-ups for the **network traffic analysis challenges** I solved. 
 
 Write-ups for the network traffic analysis challenges I solved in DEADFACE CTF 2026. Each one walks through how I investigated the packet capture, what I found, and what I learned along the way.
 
