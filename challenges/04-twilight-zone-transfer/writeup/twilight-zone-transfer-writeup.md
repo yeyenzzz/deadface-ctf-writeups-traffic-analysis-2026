@@ -11,6 +11,9 @@
 
 Upon opening the packet capture in Wireshark, filtering for DNS traffic reveals a series of standard and administrative queries targeting the `deadface-cc.net` domain zone.
 
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/f9069e4a-f460-4990-b3c5-f87899d2347c" />
+
+
 I think the attacker is scanning for the available dns
 
 ##  Step 2: Identifying the Zone Transfer (AXFR) Leak
@@ -25,6 +28,7 @@ In this capture, examining the DNS payload response reveals a complete enumerati
 
 
 ##  Step 3: Extracting the Flag
+<img width="1309" height="992" alt="image" src="https://github.com/user-attachments/assets/f62d8190-af37-42a2-900f-c0721658e4bd" />
 
 Following the stream of the zone transfer uncovers a dedicated entry under the zone:
 
