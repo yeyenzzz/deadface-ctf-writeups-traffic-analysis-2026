@@ -2,13 +2,9 @@
 
 ## Challenge Overview
 
-Category: Network Forensics / Traffic Analysis
-
-Artifact: PCAP01.pcap
-
-Objective: Analyze the network capture, identify anomalous traffic, extract hidden data, and decode the flag.
-
-Tools Used: Wireshark, Linux Terminal (base64)
+* **Category:** Network Forensics / Traffic Analysis
+* **Points:** 25
+* **Tools Used:** Wireshark, CyberChef
 
 ### Step 1: Initial PCAP Inspection
 
