@@ -4,6 +4,6 @@ Write-ups for the network traffic analysis challenges I solved in DEADFACE CTF 2
 
 ## About This Repo
 
-I'm about **2 months into learning cybersecurity**. This repo is my learning-in-public notebook, so you'll see my real process, including wrong turns and fixes. I
+I'm about **1 months into learning cybersecurity**. This repo is my learning-in-public notebook, so you'll see my real process, including wrong turns and fixes. I
 
 **Tools used:** Wireshark, Kali Linux, CyberChef
