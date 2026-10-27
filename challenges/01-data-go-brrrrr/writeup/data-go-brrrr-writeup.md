@@ -40,4 +40,8 @@ echo "ZGVhZGZhY2V7aWNtcF8zeGZpbF93aDNuX3RoM3lfbGVhc3Rfc3VzcDNjdH0=" | base64 -d
 
 Captured Flag
 
+```text
 deadface{icmp_3xfil_wh3n_th3y_least_susp3ct}
+
+```
+
