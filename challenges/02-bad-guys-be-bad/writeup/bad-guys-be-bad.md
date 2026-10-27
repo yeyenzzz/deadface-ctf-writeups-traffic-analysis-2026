@@ -1,6 +1,6 @@
 # CTF Write-Up: Bad Guys Be Bad
 
-## 📌 Challenge Overview
+## Challenge Overview
 
 * **Category:** Network Forensics / C2 Traffic Analysis
 * **Points:** 350
