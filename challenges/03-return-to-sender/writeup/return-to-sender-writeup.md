@@ -14,6 +14,9 @@ Upon reviewing the packet capture, the majority of the traffic consists of legit
 
 However, filtering for HTTP `POST` requests uncovers a distinct pattern of suspicious outbound exfiltration traffic targeting an anomalous Command and Control (C2) endpoint: **`telemetry.deadface-cc.net`**.
 
+<img width="1917" height="1079" alt="image" src="https://github.com/user-attachments/assets/1f0ffc4c-e443-4d7d-b452-61b0e048c618" />
+
+
 ### Key Observations from Anomalous Streams:
 
 * **Host Target:** `telemetry.deadface-cc.net`
